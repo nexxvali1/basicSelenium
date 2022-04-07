@@ -28,8 +28,6 @@ public class PlayWithDropDownMenu {
 		
 		List stateToStore = new ArrayList();
 		
-		
-		
 		Thread.sleep(3000);
 		
 		driver.quit();
