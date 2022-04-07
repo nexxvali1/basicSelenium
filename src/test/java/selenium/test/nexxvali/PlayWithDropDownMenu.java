@@ -30,9 +30,6 @@ public class PlayWithDropDownMenu {
 		
 		
 		
-		
-		
-		
 		Thread.sleep(3000);
 		
 		driver.quit();
