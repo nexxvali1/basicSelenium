@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="20758" started-at="2022-04-06T21:43:22Z" finished-at="2022-04-06T21:43:42Z">
+  <suite name="Default suite" duration-ms="196" started-at="2022-04-11T04:01:13Z" finished-at="2022-04-11T04:01:13Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="20758" started-at="2022-04-06T21:43:22Z" finished-at="2022-04-06T21:43:42Z">
-      <class name="selenium.test.nexxvali.ScrollUpDown">
-        <test-method status="PASS" signature="scrollDownAndUp()[pri:0, instance:selenium.test.nexxvali.ScrollUpDown@31ef45e3]" name="scrollDownAndUp" duration-ms="20676" started-at="2022-04-06T16:43:22Z" finished-at="2022-04-06T16:43:42Z">
+    <test name="Default test" duration-ms="196" started-at="2022-04-11T04:01:13Z" finished-at="2022-04-11T04:01:13Z">
+      <class name="selenium.test.nexxvali.ReadPropertyFile">
+        <test-method status="PASS" signature="locators()[pri:0, instance:selenium.test.nexxvali.ReadPropertyFile@146ba0ac]" name="locators" duration-ms="75" started-at="2022-04-10T23:01:13Z" finished-at="2022-04-10T23:01:13Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- scrollDownAndUp -->
-      </class> <!-- selenium.test.nexxvali.ScrollUpDown -->
+        </test-method> <!-- locators -->
+      </class> <!-- selenium.test.nexxvali.ReadPropertyFile -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
