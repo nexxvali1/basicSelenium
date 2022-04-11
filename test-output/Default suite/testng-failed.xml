@@ -3,11 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="selenium.test.nexxvali.PerformActionClass">
+      <class name="selenium.test.nexxvali.PlayWithDropDownMenu">
         <methods>
-          <include name="scrollDownAndUp"/>
+          <include name="openBrowser"/>
+          <include name="clickAboutUs"/>
+          <include name="closeBrowser"/>
         </methods>
-      </class> <!-- selenium.test.nexxvali.PerformActionClass -->
+      </class> <!-- selenium.test.nexxvali.PlayWithDropDownMenu -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
