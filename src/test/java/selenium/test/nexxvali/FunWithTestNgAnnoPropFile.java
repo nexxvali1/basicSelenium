@@ -30,20 +30,19 @@ public class FunWithTestNgAnnoPropFile {
 		driver.manage().window().maximize();
 	}
 
-	@Test(priority=1)
+	@Test(priority=1, description = "We are going to the URL")
 	public void goToURL() {
 		driver.get(prop.getProperty("nexxvaliURL"));
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 	}
 	
-	@Test(priority=2)
+	@Test(priority=2, description = "Clicking on About Us")
 	public void clickOnAboutUs() {
 		driver.findElement(By.xpath(prop.getProperty("aboutUsBtnXpath"))).click();
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 
 		String actAbtUsPgTitle = driver.getTitle();
-		String expAbtUsPgTitle = "About Us – Nexxvali";
-		Assert.assertEquals(actAbtUsPgTitle, expAbtUsPgTitle);
+		Assert.assertEquals(actAbtUsPgTitle, prop.getProperty("expAbtUsPgTitle"));
 	}
 
 	@AfterTest

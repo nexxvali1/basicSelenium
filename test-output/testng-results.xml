@@ -1,21 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="11939" started-at="2022-04-12T17:43:47Z" finished-at="2022-04-12T17:43:59Z">
+  <suite name="Default suite" duration-ms="14747" started-at="2022-04-12T18:11:23Z" finished-at="2022-04-12T18:11:38Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="11939" started-at="2022-04-12T17:43:47Z" finished-at="2022-04-12T17:43:59Z">
+    <test name="Default test" duration-ms="14747" started-at="2022-04-12T18:11:23Z" finished-at="2022-04-12T18:11:38Z">
       <class name="selenium.test.nexxvali.FunWithTestNgAnnoPropFile">
-        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:selenium.test.nexxvali.FunWithTestNgAnnoPropFile@59ec2012]" name="launchBrowser" is-config="true" duration-ms="10948" started-at="2022-04-12T12:43:47Z" finished-at="2022-04-12T12:43:58Z">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:selenium.test.nexxvali.FunWithTestNgAnnoPropFile@59ec2012]" name="launchBrowser" is-config="true" duration-ms="9705" started-at="2022-04-12T13:11:23Z" finished-at="2022-04-12T13:11:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method status="PASS" signature="clickOnAboutUs()[pri:0, instance:selenium.test.nexxvali.FunWithTestNgAnnoPropFile@59ec2012]" name="clickOnAboutUs" duration-ms="760" started-at="2022-04-12T12:43:58Z" finished-at="2022-04-12T12:43:59Z">
+        <test-method status="PASS" signature="goToURL()[pri:1, instance:selenium.test.nexxvali.FunWithTestNgAnnoPropFile@59ec2012]" name="goToURL" duration-ms="4046" started-at="2022-04-12T13:11:33Z" description="We are going to the URL" finished-at="2022-04-12T13:11:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToURL -->
+        <test-method status="PASS" signature="clickOnAboutUs()[pri:2, instance:selenium.test.nexxvali.FunWithTestNgAnnoPropFile@59ec2012]" name="clickOnAboutUs" duration-ms="702" started-at="2022-04-12T13:11:37Z" description="Clicking on About Us" finished-at="2022-04-12T13:11:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickOnAboutUs -->
-        <test-method status="PASS" signature="terminateBrowser()[pri:0, instance:selenium.test.nexxvali.FunWithTestNgAnnoPropFile@59ec2012]" name="terminateBrowser" is-config="true" duration-ms="191" started-at="2022-04-12T12:43:59Z" finished-at="2022-04-12T12:43:59Z">
+        <test-method status="PASS" signature="terminateBrowser()[pri:0, instance:selenium.test.nexxvali.FunWithTestNgAnnoPropFile@59ec2012]" name="terminateBrowser" is-config="true" duration-ms="165" started-at="2022-04-12T13:11:38Z" finished-at="2022-04-12T13:11:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- terminateBrowser -->
