@@ -15,8 +15,6 @@ import java.util.concurrent.TimeUnit;
 
 public class FunWithTestNgAnnoPropFile {
 
-	String chromeDriver = "webdriver.chrome.driver";
-	String driverLocation = "/Users/Mukit/Documents/Selenium/chromedriver";
 	static String propertyFileLocation = "target/Locators.properties";
 	public WebDriver driver;
 	public Properties prop;
@@ -27,7 +25,7 @@ public class FunWithTestNgAnnoPropFile {
 		prop = new Properties();
 		prop.load(input);
 
-		System.setProperty("webdriver.chrome.driver", driverLocation);
+		System.setProperty(prop.getProperty("chromeDriver"), prop.getProperty("driverLocation"));
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		
