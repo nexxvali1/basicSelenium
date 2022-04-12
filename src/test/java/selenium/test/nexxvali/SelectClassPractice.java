@@ -1,5 +1,6 @@
 package selenium.test.nexxvali;
 
+import org.testng.annotations.Test;
 import org.testng.Assert;
 import org.testng.annotations.*;
 import org.openqa.selenium.support.ui.Select;

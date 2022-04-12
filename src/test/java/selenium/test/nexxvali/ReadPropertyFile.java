@@ -1,5 +1,6 @@
 package selenium.test.nexxvali;
 
+import org.testng.annotations.Test;
 import java.io.FileInputStream;
 import java.io.InputStream;
 import java.util.Properties;
@@ -22,10 +23,6 @@ public class ReadPropertyFile {
 		/*Step3: Load the properties file*/
 		prop.load(input);
 		
-		 System.out.println(prop.getProperty("homeBtn"));
-		 System.out.println(prop.getProperty("aboutUsBtn"));
-		 System.out.println(prop.getProperty("servicesBtn"));
-		 System.out.println(prop.getProperty("contactUsBtn"));
 		 
 	}
 
