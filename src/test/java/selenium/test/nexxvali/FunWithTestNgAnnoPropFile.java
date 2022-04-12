@@ -15,25 +15,28 @@ import java.util.concurrent.TimeUnit;
 
 public class FunWithTestNgAnnoPropFile {
 
-	static String propertyFileLocation = "target/Locators.properties";
+	static String propFileLoc = "target/Locators.properties";
 	public WebDriver driver;
 	public Properties prop;
 
 	@BeforeTest
 	public void launchBrowser() throws Exception {
-		InputStream input = new FileInputStream(propertyFileLocation);
+		InputStream input = new FileInputStream(propFileLoc);
 		prop = new Properties();
 		prop.load(input);
 
 		System.setProperty(prop.getProperty("chromeDriver"), prop.getProperty("driverLocation"));
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
-		
+	}
+
+	@Test(priority=1)
+	public void goToURL() {
 		driver.get(prop.getProperty("nexxvaliURL"));
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 	}
-
-	@Test
+	
+	@Test(priority=2)
 	public void clickOnAboutUs() {
 		driver.findElement(By.xpath(prop.getProperty("aboutUsBtnXpath"))).click();
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
@@ -41,7 +44,6 @@ public class FunWithTestNgAnnoPropFile {
 		String actAbtUsPgTitle = driver.getTitle();
 		String expAbtUsPgTitle = "About Us – Nexxvali";
 		Assert.assertEquals(actAbtUsPgTitle, expAbtUsPgTitle);
-
 	}
 
 	@AfterTest
