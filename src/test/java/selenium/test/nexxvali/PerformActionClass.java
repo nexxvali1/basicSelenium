@@ -24,7 +24,7 @@ public class PerformActionClass {
 	@Test
 	public void scrollDownAndUp() throws Exception {
 		System.setProperty(chromeDriver, driverLocation);
-
+		//Here we have both initialized and decleared the driver
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 
@@ -39,11 +39,7 @@ public class PerformActionClass {
 		
 			Thread.sleep(10000);
 			
-	
-			
-			
 			driver.quit();
 	}
-	
 
 }

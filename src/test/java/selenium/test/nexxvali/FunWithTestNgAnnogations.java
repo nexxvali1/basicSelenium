@@ -7,6 +7,9 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
+
+import static org.testng.Assert.assertNotSame;
+
 import java.util.concurrent.TimeUnit;
 
 public class FunWithTestNgAnnogations {
@@ -15,15 +18,17 @@ public class FunWithTestNgAnnogations {
 	String driverLocation = "/Users/Mukit/Documents/Selenium/chromedriver";
 	public String url = "https://www.nexxvali.com";
 	static String aboutUsBtnXpath = "//li[@id='menu-item-570']";
+	//Here we have decleared the driver
 	public WebDriver driver;
 
 	@BeforeTest
+	//Any generic code that can be used in all the tests
 	public void launchBrowser() {
-		System.setProperty("webdriver.chrome.driver",driverLocation);
+		System.setProperty(chromeDriver,driverLocation);
+		//Here we have assigned/initialized the driver
 		driver = new ChromeDriver();
+		driver.manage().window().maximize();
 		driver.get(url);
-
-		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 	}
 
 	@Test
@@ -34,10 +39,10 @@ public class FunWithTestNgAnnogations {
 		String actAbtUsPgTitle = driver.getTitle();
 		String expAbtUsPgTitle = "About Us – Nexxvali";
 		Assert.assertEquals(actAbtUsPgTitle, expAbtUsPgTitle);
-
 	}
 
 	@AfterTest
+	//Any code that can be used after all the tests are completed
 	public void terminateBrowser() {
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		driver.close();
