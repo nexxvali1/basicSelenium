@@ -17,7 +17,7 @@ public class SelectClassPractice {
 	static String driverLocation = "/Users/Mukit/Documents/Selenium/chromedriver";
 	static String url = "https://www.mycontactform.com/samples/businesscontact.php";
 	static String emailXpath = "//input[@id='email']";
-	static String emailInput = "mukit@rozy.com";
+	static String emailInput = "mukit@nexxvali.com";
 	static String ssLocation = "/Users/Mukit/Documents/workspace/nexxvali/screenShots/TestSS.jpeg";
 
 	@Test
