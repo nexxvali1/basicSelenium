@@ -5,9 +5,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
-
+import org.testng.annotations.*;
 import java.io.FileInputStream;
 import java.io.InputStream;
 import java.util.Properties;
@@ -44,7 +42,7 @@ public class FunWithTestNgAnnoPropFile {
 		String actAbtUsPgTitle = driver.getTitle();
 		Assert.assertEquals(actAbtUsPgTitle, prop.getProperty("expAbtUsPgTitle"));
 	}
-
+	
 	@AfterTest
 	public void terminateBrowser() {
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
