@@ -1,6 +1,10 @@
 package selenium.test.nexxvali;
 
 import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
+import org.testng.annotations.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -38,7 +42,7 @@ public class FunWithTestNgAnnogations {
 		
 		String actAbtUsPgTitle = driver.getTitle();
 		String expAbtUsPgTitle = "About Us – Nexxvali";
-		Assert.assertEquals(actAbtUsPgTitle, expAbtUsPgTitle);
+		AssertJUnit.assertEquals(actAbtUsPgTitle, expAbtUsPgTitle);
 	}
 
 	@AfterTest

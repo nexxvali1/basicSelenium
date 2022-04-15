@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="116" started-at="2022-04-14T17:24:36Z" finished-at="2022-04-14T17:24:36Z">
+  <suite name="Default suite" duration-ms="186" started-at="2022-04-15T19:03:06Z" finished-at="2022-04-15T19:03:06Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="116" started-at="2022-04-14T17:24:36Z" finished-at="2022-04-14T17:24:36Z">
+    <test name="Default test" duration-ms="186" started-at="2022-04-15T19:03:06Z" finished-at="2022-04-15T19:03:06Z">
       <class name="selenium.test.nexxvali.TestNgDataProvider">
-        <test-method status="PASS" signature="printData(java.lang.String, java.lang.String)[pri:0, instance:selenium.test.nexxvali.TestNgDataProvider@6eebc39e]" name="printData" duration-ms="14" started-at="2022-04-14T12:24:36Z" data-provider="logInData" finished-at="2022-04-14T12:24:36Z">
+        <test-method status="PASS" signature="printData(java.lang.String, java.lang.String)[pri:0, instance:selenium.test.nexxvali.TestNgDataProvider@6eebc39e]" name="printData" duration-ms="50" started-at="2022-04-15T14:03:06Z" data-provider="logInData" finished-at="2022-04-15T14:03:06Z">
           <params>
             <param index="0">
               <value>
@@ -23,7 +23,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- printData -->
-        <test-method status="PASS" signature="printData(java.lang.String, java.lang.String)[pri:0, instance:selenium.test.nexxvali.TestNgDataProvider@6eebc39e]" name="printData" duration-ms="2" started-at="2022-04-14T12:24:36Z" data-provider="logInData" finished-at="2022-04-14T12:24:36Z">
+        <test-method status="PASS" signature="printData(java.lang.String, java.lang.String)[pri:0, instance:selenium.test.nexxvali.TestNgDataProvider@6eebc39e]" name="printData" duration-ms="4" started-at="2022-04-15T14:03:06Z" data-provider="logInData" finished-at="2022-04-15T14:03:06Z">
           <params>
             <param index="0">
               <value>
@@ -39,7 +39,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- printData -->
-        <test-method status="PASS" signature="printData(java.lang.String, java.lang.String)[pri:0, instance:selenium.test.nexxvali.TestNgDataProvider@6eebc39e]" name="printData" duration-ms="2" started-at="2022-04-14T12:24:36Z" data-provider="logInData" finished-at="2022-04-14T12:24:36Z">
+        <test-method status="PASS" signature="printData(java.lang.String, java.lang.String)[pri:0, instance:selenium.test.nexxvali.TestNgDataProvider@6eebc39e]" name="printData" duration-ms="5" started-at="2022-04-15T14:03:06Z" data-provider="logInData" finished-at="2022-04-15T14:03:06Z">
           <params>
             <param index="0">
               <value>
@@ -55,7 +55,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- printData -->
-        <test-method status="PASS" signature="printData(java.lang.String, java.lang.String)[pri:0, instance:selenium.test.nexxvali.TestNgDataProvider@6eebc39e]" name="printData" duration-ms="2" started-at="2022-04-14T12:24:36Z" data-provider="logInData" finished-at="2022-04-14T12:24:36Z">
+        <test-method status="PASS" signature="printData(java.lang.String, java.lang.String)[pri:0, instance:selenium.test.nexxvali.TestNgDataProvider@6eebc39e]" name="printData" duration-ms="1" started-at="2022-04-15T14:03:06Z" data-provider="logInData" finished-at="2022-04-15T14:03:06Z">
           <params>
             <param index="0">
               <value>

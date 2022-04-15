@@ -1,6 +1,5 @@
 package selenium.test.nexxvali;
 
-import org.testng.annotations.Test;
 import org.testng.Assert;
 import org.testng.annotations.*;
 import org.openqa.selenium.support.ui.Select;
@@ -10,7 +9,6 @@ import java.io.IOException;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.chrome.*;
 import org.openqa.selenium.JavascriptExecutor;
-import java.util.concurrent.TimeUnit;
 
 public class ScrollUpDown {
 

@@ -1,5 +1,9 @@
 package selenium.test.nexxvali;
 
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -39,7 +43,7 @@ public class FunWithTestNgAnnoPropFile {
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 
 		String actAbtUsPgTitle = driver.getTitle();
-		Assert.assertEquals(actAbtUsPgTitle, prop.getProperty("expAbtUsPgTitle"));
+		AssertJUnit.assertEquals(actAbtUsPgTitle, prop.getProperty("expAbtUsPgTitle"));
 	}
 	
 	@AfterTest

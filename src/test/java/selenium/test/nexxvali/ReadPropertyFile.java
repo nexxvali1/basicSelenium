@@ -1,6 +1,8 @@
 package selenium.test.nexxvali;
 
 import org.testng.annotations.Test;
+import org.testng.annotations.Test;
+import org.testng.annotations.Test;
 import java.io.FileInputStream;
 import java.io.InputStream;
 import java.util.Properties;
